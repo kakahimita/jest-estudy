@@ -106,12 +106,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request 
 
 ### Licença
 Este projeto está licenciado sob a Licença MIT.
-
-**Observações:**
-
-*   **`SEU_USUARIO`:** Lembre-se de substituir `SEU_USUARIO` pelo seu nome de usuário no GitHub.
-*   **`LICENSE`:** Crie um arquivo chamado `LICENSE` na raiz do seu repositório e adicione o texto da Licença MIT (ou a licença que você preferir).  Você pode encontrar o texto da Licença MIT facilmente online.
-*   **Detalhes Adicionais:** Sinta-se à vontade para adicionar mais detalhes e explicações ao `README.md` para torná-lo ainda mais informativo.
-*   **Melhore Gradualmente:** À medida que você avança em seus estudos, atualize este `README.md` para refletir seus novos conhecimentos e exemplos.
-
-Este `README.md` fornece uma boa base para o seu repositório. Ele é claro, conciso e explica o propósito do projeto, como instalá-lo e como executar os testes. Ele também incentiva a contribuição e fornece informações sobre a licença. Adapte-o conforme necessário para melhor atender às suas necessidades.
