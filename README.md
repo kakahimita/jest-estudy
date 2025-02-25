@@ -62,17 +62,15 @@ npm test  # ou yarn test
 ```
 Isso executará todos os testes definidos nos arquivos .test.js dentro da pasta tests/.
 
-Exemplos
-Testando a Classe Item
+#Exemplos
+#Testando a Classe Item
 Os testes para a classe Item garantem que:
 
-Um item pode ser criado com um nome e preço válidos.
+*   **Um item pode ser criado com um nome e preço válidos.
+*   **O preço é formatado corretamente.
+*   **Erros são lançados quando o nome ou preço são inválidos.
 
-O preço é formatado corretamente.
-
-Erros são lançados quando o nome ou preço são inválidos.
-
-Exemplo de teste:
+#Exemplo de teste:
 ```javaScript
 it('Deve criar um item com nome e preço válidos', () => {
   const item = new Item('Camiseta', 29.99);
@@ -80,22 +78,17 @@ it('Deve criar um item com nome e preço válidos', () => {
   expect(item.preco).toBe(29.99);
 });
 ```
-Testando a Classe Carrinho
+#Testando a Classe Carrinho
 Os testes para a classe Carrinho garantem que:
 
-Itens podem ser adicionados ao carrinho.
+*   **Itens podem ser adicionados ao carrinho.
+*   **O total do carrinho é calculado corretamente.
+*   **Itens podem ser removidos do carrinho.
+*   **O carrinho pode ser esvaziado.
+*   **A quantidade total de itens no carrinho é calculada corretamente.
+*   **Erros são lançados quando operações inválidas são realizadas.
 
-O total do carrinho é calculado corretamente.
-
-Itens podem ser removidos do carrinho.
-
-O carrinho pode ser esvaziado.
-
-A quantidade total de itens no carrinho é calculada corretamente.
-
-Erros são lançados quando operações inválidas são realizadas.
-
-Exemplo de teste:
+**Exemplo de teste:**
 ```javaScript
 it('Deve adicionar um item ao carrinho', () => {
   const item = new Item('Caneta', 2.50);
@@ -108,10 +101,10 @@ it('Deve adicionar um item ao carrinho', () => {
 
 Consulte os arquivos tests/item.test.js e tests/carrinho.test.js para ver todos os testes implementados.
 
-Contribuição
+#Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias, correções ou novos exemplos.
 
-Licença
+#Licença
 Este projeto está licenciado sob a Licença MIT.
 
 **Observações:**
