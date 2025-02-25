@@ -103,6 +103,3 @@ Consulte os arquivos tests/item.test.js e tests/carrinho.test.js para ver todos 
 
 ### Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias, correções ou novos exemplos.
-
-### Licença
-Este projeto está licenciado sob a Licença MIT.
