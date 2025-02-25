@@ -15,6 +15,7 @@ Este repositório é parte do meu aprendizado sobre testes unitários com Jest. 
 
 ## Estrutura do Projeto
 
+```
 jest-study/
 ├── src/
 │ ├── item.js # Classe para representar um item no carrinho
@@ -26,3 +27,4 @@ jest-study/
 │ └── README.md # Detalhes sobre os testes
 ├── README.md # Este arquivo (documentação principal)
 └── package.json # Arquivo de configuração do projeto
+```
