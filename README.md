@@ -28,3 +28,35 @@ jest-study/
 ├── README.md # Este arquivo (documentação principal)
 └── package.json # Arquivo de configuração do projeto
 ```
+
+*   **`src/`**: Contém o código-fonte das classes `Item` e `Carrinho`. Consulte o `README.md` dentro desta pasta para mais detalhes sobre essas classes.
+*   **`tests/`**: Contém os testes unitários escritos com Jest para as classes em `src/`. Consulte o `README.md` dentro desta pasta para mais informações sobre a estrutura dos testes e os matchers utilizados.
+
+## Instalação
+
+1.  Clone este repositório:
+
+    ```bash
+    git clone https://github.com/SEU_USUARIO/jest-study.git
+    ```
+
+    (Substitua `SEU_USUARIO` pelo seu nome de usuário no GitHub).
+
+2.  Navegue até o diretório do projeto:
+
+    ```bash
+    cd jest-study
+    ```
+
+3.  Instale as dependências:
+
+    ```bash
+    npm install  # ou yarn install
+    ```
+
+## Executando os Testes
+
+Para executar os testes, utilize o seguinte comando:
+
+```bash
+npm test  # ou yarn test
