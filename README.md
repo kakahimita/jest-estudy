@@ -62,15 +62,15 @@ npm test  # ou yarn test
 ```
 Isso executará todos os testes definidos nos arquivos .test.js dentro da pasta tests/.
 
-#Exemplos
-#Testando a Classe Item
+##Exemplos
+##Testando a Classe Item
 Os testes para a classe Item garantem que:
 
 *   **Um item pode ser criado com um nome e preço válidos.
 *   **O preço é formatado corretamente.
 *   **Erros são lançados quando o nome ou preço são inválidos.
 
-#Exemplo de teste:
+##Exemplo de teste:
 ```javaScript
 it('Deve criar um item com nome e preço válidos', () => {
   const item = new Item('Camiseta', 29.99);
@@ -78,15 +78,15 @@ it('Deve criar um item com nome e preço válidos', () => {
   expect(item.preco).toBe(29.99);
 });
 ```
-#Testando a Classe Carrinho
+##Testando a Classe Carrinho
 Os testes para a classe Carrinho garantem que:
 
-*   **Itens podem ser adicionados ao carrinho.
-*   **O total do carrinho é calculado corretamente.
-*   **Itens podem ser removidos do carrinho.
-*   **O carrinho pode ser esvaziado.
-*   **A quantidade total de itens no carrinho é calculada corretamente.
-*   **Erros são lançados quando operações inválidas são realizadas.
+*   Itens podem ser adicionados ao carrinho.
+*   O total do carrinho é calculado corretamente.
+*   Itens podem ser removidos do carrinho.
+*   O carrinho pode ser esvaziado.
+*   A quantidade total de itens no carrinho é calculada corretamente.
+*   Erros são lançados quando operações inválidas são realizadas.
 
 **Exemplo de teste:**
 ```javaScript
