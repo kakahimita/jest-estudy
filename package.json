@@ -1,0 +1,16 @@
+{
+  "name": "jest-estudy",
+  "version": "1.0.0",
+  "description": "Este repositório é parte do meu aprendizado sobre testes unitários com Jest. Ele demonstra como testar uma classe `Item` e uma classe `Carrinho` que simula um carrinho de compras. O objetivo é fornecer exemplos práticos e claros de como usar Jest para garantir a qualidade do código.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "type": "module"
+}
