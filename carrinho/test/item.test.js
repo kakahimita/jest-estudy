@@ -9,9 +9,10 @@ describe('Testes dos itens', () => {
         expect(item.valor).toBe(2.5);
         expect(item.quantidade).toBe(10);
     })
-    it('Verificando o metodo', () => {
-        const item = new Item('cenoura', 3.5, 2);
+    it('Deve ter o preço calculado de acordo com a quantidade', () => {
 
-        expect(item.pegaValorTotalItem()).toBe(7);
+        const item = new Item('Maça', 0.1, 3); // Problema de ponto flutuante.
+
+        expect(item.pegaValorTotalItem()).toBeCloseTo(0.3); // Matcher para verificar se um número está proximo de outro, útil para lidar com precisões de ponto flutuante
     })
-})
+});
