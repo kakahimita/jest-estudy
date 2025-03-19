@@ -39,8 +39,6 @@ jest-study/
     git clone https://github.com/SEU_USUARIO/jest-study.git
     ```
 
-    (Substitua `SEU_USUARIO` pelo seu nome de usuário no GitHub).
-
 2.  Navegue até o diretório do projeto:
 
     ```bash
